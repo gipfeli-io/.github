@@ -1,0 +1,12 @@
+name: 🧹 Clean up
+description: State what should be cleaned up here
+title: "[CLEANUP]: "
+labels: ["cleanup"]
+body:        
+  - type: textarea
+    id: cleanup-description
+    attributes:
+      label: Description of what needs to be cleaned up
+      description: Give us a brief description of what needs to be cleaned up
+    validations:
+      required: true
